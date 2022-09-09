@@ -26,7 +26,7 @@
         <nav class="main-nav">
           <a href="./index.html" class="logo">Web<span class="page-studio">Studio</span></a>
           <ul class="site-nav list">
-            <li class="item"><a href="./index.html" class="link current">Студия</a></li>
+            <li class="item"><a href="./index.html" class="link current current-page">Студия</a></li>
             <li class="item"><a href="./portfolio.html" class="link">Портфолио</a></li>
             <li class="item"><a href="" class="link">Контакты</a></li>
           </ul>
@@ -45,8 +45,9 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <button type="button" class="button">Заказать услугу</button>
+          <button type="button" class="button" data-modal-open >Заказать услугу</button>
         </div>
+      
       </section>
       <section class="section">
         <div class="container">
@@ -104,16 +105,30 @@
         <div class="container">
           <h2 class="section-title">Чем мы занимаемся</h2>
           <ul class="examples list">
-            <li><img src="./img/fon1.jpg" alt="Разработка сайта" width="370" height="294" /></li>
             <li>
+              <div class="thumb">
+              <img src="./img/fon1.jpg" alt="Разработка сайта" width="370" height="294" />
+              <p class="label desctop">Десктопні додатки</p>
+            </div>
+            </li>
+            <li>
+            
+              <div class="thumb">
               <img
                 src="./img/fon2.jpg"
                 alt="Подключение социальных сетей"
                 width="370"
                 height="294"
               />
+              <p class="label mobile">Мобільні додатки</p>
+            </div>
             </li>
-            <li><img src="./img/fon3.jpg" alt="Разработка дизайна" width="370" height="294" /></li>
+            <li>
+              <div class="thumb">
+              <img src="./img/fon3.jpg" alt="Разработка дизайна" width="370" height="294" />
+              <p class="label design">Мобільні додатки</p>
+            </div>
+            </li>
           </ul>
         </div>
       </section>
@@ -494,5 +509,16 @@
      </div>
      </div>
     </footer>
+      <!--Modal window-->
+      <div class="backdrop is-hidden" data-modal> 
+        <div class="modal">
+          <a class="modal-item">
+          <svg class="" width="11" height="11" data-modal-close>
+            <use href="./img/icon/symbol-defs.svg#cross"></use>
+          </svg>
+        </a>
+        </div>
+      </div>
+      <script src="./js/modal.js" ></script>
   </body>
 </html>
