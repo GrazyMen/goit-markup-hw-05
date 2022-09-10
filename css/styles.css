@@ -102,14 +102,15 @@ section {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .site-nav .item,
 .link:hover,
 .site-nav .item,
 .link:focus {
   color: var(--accent-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .site-nav .item .link.current {
@@ -144,6 +145,9 @@ section {
 /* Site-info */
 .svg-logo {
   fill: currentColor;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .svg-header {
@@ -154,8 +158,7 @@ section {
 .svg-logo:hover,
 .svg-logo:focus {
   fill: var(--button-active);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ 
 }
 
 .item-svg {
@@ -172,13 +175,14 @@ section {
   letter-spacing: 0.02em;
   text-decoration: none;
   align-items: center;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-info .link:hover,
 .site-info .link:focus {
   color: var(--accent-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ 
 }
 
 .site-info {
@@ -218,21 +222,21 @@ section {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-title-1 .link:hover,
 .hero-title-1 .link:focus {
   color: var(--background-main-color);
   background-color: var(--accent-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .button:hover,
 .button:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   background-color: var(--button-active);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ 
 }
 /* Feature-list */
 .fuature {
@@ -309,13 +313,14 @@ section {
   background-color: var(--background-main-color);
   border-radius: 50%;
   fill: currentColor;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .socials-link:hover,
 .socials-link:focus {
   color: var(--background-main-color);
   background-color: var(--button-active);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ 
 }
 
 .section-2 {
@@ -395,14 +400,15 @@ section {
 
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-link:hover,
 .customers-link:focus {
   border-color: var(--accent-color);
   color: var(--accent-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 /* Footer */
 
@@ -418,14 +424,12 @@ section {
 .footer .link-map:hover,
 .footer .link-map:focus {
   color: var(--accent-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ 
 }
 .footer .link:hover,
 .footer .link:focus {
   color: var(--accent-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ 
 }
 .footer {
   margin-top: 20px;
@@ -445,6 +449,8 @@ section {
   letter-spacing: 0.03em;
   text-decoration: none;
   padding-bottom: 9px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link {
@@ -456,6 +462,8 @@ section {
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .page-studio-white {
@@ -496,12 +504,13 @@ footer .social-link {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   color: var(--background-main-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link:hover,
 .social-link:focus {
   background-color: var(--button-active);
-  transition-duration: 750ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 /* Button */
 .button {
@@ -517,6 +526,8 @@ footer .social-link {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Portfolio */
@@ -543,6 +554,8 @@ footer .social-link {
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-p:hover,
 .button-p:focus {
@@ -550,19 +563,19 @@ footer .social-link {
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .list-work {
   border-radius: 0px 0px 4px 4px;
   width: 370px;
+  transition-duration: 750ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .list-work:hover,
 .list-work:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .table-list {
   padding: 20px 24px;
@@ -622,6 +635,8 @@ footer .social-link {
   letter-spacing: 0.03em;
   color: var(--background-main-color);
   background-color: rgba(33, 150, 243, 0.90);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*Modal window*/
@@ -629,9 +644,11 @@ footer .social-link {
   position: fixed;
   top: 0;
   left: 0;
-
   width: 100%;
   height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .backdrop.is-hidden {
   opacity: 0;
@@ -663,32 +680,29 @@ footer .social-link {
   height: 30px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 45px;
+  
+}
+.cross{
+  background-color: white;
 }
 /*Lable*/
 .thumb {
   position: relative;
-  margin: 10px;
-  border-radius: 4px;
-  overflow: hidden;
+  
 }
 .thumb > .label {
   display: flex;
   position: absolute;
   bottom: 0;
   width: 100%;
-  margin: 0;
+ align-items: center;
   justify-content: center;
   height: 70px;
   background-color: rgba(47, 48, 58, 0.8);
 }
 .label {
-  padding-top: 27px;
-  font-style: normal;
   font-weight: 700;
-  font-size: 14px;
   line-height: 16px;
-  text-align: center;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
 }
