@@ -103,7 +103,7 @@ section {
   letter-spacing: 0.02em;
   text-decoration: none;
   transition-property: color;
-  transition-duration: 787ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .site-nav .item,
@@ -145,9 +145,7 @@ section {
 /* Site-info */
 .svg-logo {
   fill: currentColor;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ 
 }
 
 .svg-header {
@@ -174,6 +172,7 @@ section {
   letter-spacing: 0.02em;
   text-decoration: none;
   align-items: center;
+  transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
